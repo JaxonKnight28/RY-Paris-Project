@@ -24,6 +24,7 @@ body {
 .menuItem {
     justify-content: space-evenly;
     flex-grow: 1;
+    font-size: 20px;
 }
 
 #bigImg {
@@ -32,12 +33,27 @@ body {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-content: flex-end;
+    align-items: flex-end;
     width: 100%;
     height: 600px; 
 }
 
 #picWords {
     background-color: white;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 40px;
+}
 
+#categories {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.heading {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.bodyText {
+    font-size: 20px;
 }
