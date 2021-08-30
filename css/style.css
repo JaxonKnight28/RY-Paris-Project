@@ -10,7 +10,7 @@ body {
 }
 
 #logo {
-    background-image: url("/images/ryparis-logo.png");
+    background-image: url("../images/ryparis-logo.png");
     flex-grow: 4;
     background-repeat: no-repeat;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 #bigImg {
-    background-image: url("/images/hero-image.jpg");
+    background-image: url("../images/hero-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
