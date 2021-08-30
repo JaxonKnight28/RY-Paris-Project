@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+#header {
+    height: 100px;
+    display: flex;
+    background-color: rgb(230, 168, 78);
+    border-bottom: 3px white solid;
+}
+
+#logo {
+    background-image: url("/images/ryparis-logo.png");
+    flex-grow: 4;
+    background-repeat: no-repeat;
+}
+
+#nav {
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+}
+
+.menuItem {
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+#bigImg {
+    background-image: url("/images/hero-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    width: 100%;
+    height: 600px; 
+}
+
+#picWords {
+    background-color: white;
+
+}
