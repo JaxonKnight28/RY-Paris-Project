@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-grow: 2;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .menuItem {
@@ -43,6 +44,7 @@ body {
     margin-bottom: 40px;
     padding: 10px;
     font-size: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 #categories {
@@ -54,10 +56,14 @@ body {
 .heading {
     margin-bottom: 20px;
     font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
 }
 
 .bodyText {
     font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 #picContainer {
@@ -83,6 +89,7 @@ body {
 }
 
 .wordPic > div {
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     margin-top: 15px;
 }
@@ -130,6 +137,59 @@ div.whiteWords {
 }
 
 .whiteWords > div {
+    font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     padding: 15px;
+}
+
+#lastWhite {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+#whereEat {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#space {
+   padding-top: 20px;
+}
+
+#lastImg {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+
+.borderPic {
+    width: 365px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 100% 10%;
+    border: 8px rgb(220, 223, 233) solid;
+}
+
+#bottom {
+    display: flex;
+    height: 100px;
+    margin-top: 50px;
+    padding-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(230, 168, 78);
+}
+
+#copy {
+    flex-grow:4;
+}
+
+#bottomNav {
+    flex-grow:3;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
 }
