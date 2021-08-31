@@ -79,7 +79,7 @@ body {
     width: 365px;
     height: 250px;
     object-fit: cover;
-    object-position: 100% 100%;
+    object-position: 50% 50%;
 }
 
 .wordPic {
@@ -123,7 +123,7 @@ body {
     width: 285px;
     height: 190px;
     object-fit: cover;
-    object-position: 100% 100%;
+    object-position: 50% 50%;
     background-color: white;
 }
 
@@ -169,7 +169,7 @@ div.whiteWords {
     width: 365px;
     height: 250px;
     object-fit: cover;
-    object-position: 100% 10%;
+    object-position: 100% 50%;
     border: 8px rgb(220, 223, 233) solid;
 }
 
@@ -185,6 +185,7 @@ div.whiteWords {
 
 #copy {
     flex-grow:4;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #bottomNav {
