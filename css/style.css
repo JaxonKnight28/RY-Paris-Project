@@ -222,9 +222,42 @@ div.whiteWords {
 .info {
     display: flex;
     justify-content: flex-start;
-    justify-content: ;
     flex-wrap: wrap;
 }
 .individual {
-    padding: 20px;
+    padding-right: 20%;
+    font-family: 'Open Sans', sans-serif;
+}
+.bold {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+#review {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.burgerName {
+    font-size: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#starContainer {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;    
+}
+
+.star {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    
+}
+#starWords {
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
 }
