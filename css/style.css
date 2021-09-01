@@ -300,3 +300,28 @@ div.whiteWords {
     font-weight: bolder;
     font-size: 30px;
 }
+
+#steps {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftSteps {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#rightSteps {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+#rightSteps .bodyText {
+    font-weight: bolder;
+}
