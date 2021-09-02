@@ -144,7 +144,7 @@ div.whiteWords {
 
 .whiteWords > div {
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 23px;
     padding: 15px;
 }
 
@@ -214,7 +214,7 @@ div.whiteWords {
 
 .grayInfo {
     background-color: rgb(220, 223, 233);
-    height: 200px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     padding-left: 50px;
@@ -226,7 +226,8 @@ div.whiteWords {
     flex-wrap: wrap;
 }
 .individual {
-    padding-right: 20%;
+    width: 200px;
+    padding-right: 15%;
     font-family: 'Open Sans', sans-serif;
 }
 .bold {
@@ -285,9 +286,8 @@ div.whiteWords {
 
 #quoteContainer {
     background-color: rgb(220, 223, 233);
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 30px 50px 0 50px;
+    padding-bottom: 30px;
     width: auto;
     height: auto;
     display: flex;
