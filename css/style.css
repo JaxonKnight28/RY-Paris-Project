@@ -11,7 +11,7 @@ body {
 }
 
 #logo {
-    background-image: url("../images/ryparis-logo.png");
+    /* background-image: url("../images/ryparis-logo.png"); */
     flex-grow: 4;
     background-repeat: no-repeat;
 }
