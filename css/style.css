@@ -101,7 +101,7 @@ a {
 #grayContainer {
     background-color: rgb(220, 223, 233);
     height: 500px;
-    margin: 0;
+    padding-bottom: 30px;
 }
 
 #grayContainer > .heading {
