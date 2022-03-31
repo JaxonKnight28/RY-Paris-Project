@@ -1,1 +1,1 @@
-This is a project to replicate a photos of a website
+This is a project to replicate a photo of a website
